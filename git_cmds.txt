@@ -1,0 +1,66 @@
+  git config --list
+  git config --global user.name 'Rahul Vishwakarma'
+  git config --global user.email 'vishwakarmarahul@gmail.com'
+  git config --list
+  git config user.name
+  git config user.email
+  touch file1.txt
+  ls
+  git status
+  git init
+  ls
+  ls -al
+  cd .git/
+  ls
+  git status
+  cd ..
+  ls
+  git status
+  git add file1.txt 
+  git status
+  touch hello.cpp
+  gedit hello.cpp 
+  g++ -o hello hello.cpp 
+  ls
+  ./hello 
+  gedit hello.cpp 
+  g++ -o hello hello.cpp 
+  ls
+  ./hello 
+  ls
+  git status
+  git add .
+  git status
+  git rm --cached hello
+  ls
+  git status
+  git commit -m 'First Commit'
+  git status
+  lds
+  ls
+  rm -f hello
+  ls
+  git status
+  git add .
+  git status
+  git commit -m '2nd commit'
+  git status
+  git remote add origin https://github.com/RahulVishwakarma81/JavaStackDevelopment.git
+  git remote
+  git branch
+  git push -u origin master 
+  touch file3
+  gedit file3 &
+  ls
+  git status
+  git add file3 
+  git status
+  git commit -m 'file3 added'
+  git status
+  touch file4
+  git status
+  git commit -m 'file4 added'
+  git add file4 
+  git commit -m 'file4 added'
+  git status
+  git push -u origin master
